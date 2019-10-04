@@ -53,6 +53,8 @@ namespace FormOrai
 
                 int eredmeny = elso + masodik;
                 MessageBox.Show("Eredmény: " + eredmeny.ToString());
+
+                //textBox1.Text = (int.Parse(textBox2.Text) + int.Parse(textBox2.Text)).ToString();
             }
             catch (Exception)
             {
